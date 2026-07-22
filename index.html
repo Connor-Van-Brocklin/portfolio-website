@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,41 +11,289 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+
+    <header class="site-header">
+        <nav class="navbar">
+            <a class="logo" href="#home">
+                Connor<span>.</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a class="contact-link" href="#contact">Contact</a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section id="home">
-            <h1>Hi, I'm Connor.</h1>
-            <p>Gameplay programmer and technical designer in training.</p>
-        </section>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Gameplay Programming · Technical Design</p>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                I'm an Experiential Media Design student at The Ohio State
-                University interested in gameplay programming, technical
-                design, Unreal Engine, and 3D modeling.
-            </p>
-        </section>
+                <h1>
+                    I build interactive systems that make games feel
+                    <span>responsive, intuitive, and fun.</span>
+                </h1>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Projects coming soon.</p>
-        </section>
+                <p class="hero-description">
+                    I’m Connor Van Brocklin, an Experiential Media Design student
+                    at The Ohio State University focused on gameplay programming,
+                    technical design, Unreal Engine, and 3D production.
+                </p>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Add your GitHub and LinkedIn links here.</p>
-        </section>
+                <div class="hero-actions">
+                    <a class="button primary-button" href="#projects">
+                        View My Work
+                    </a>
+
+                    <a class="button secondary-button" href="#contact">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="quick-links">
+                    <a href="YOUR-GITHUB-LINK" target="_blank" rel="noopener">
+                        GitHub
+                    </a>
+
+                    <a href="YOUR-ITCH-LINK" target="_blank" rel="noopener">
+                        itch.io
+                    </a>
+
+                    <a href="YOUR-LINKEDIN-LINK" target="_blank" rel="noopener">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-side">
+
+                <div class="profile-card">
+
+                    <img src="images/connor.jpg" alt="Connor Van Brocklin">
+
+                    <h3>Connor Van Brocklin</h3>
+
+                    <p>
+                        Gameplay Programmer<br>
+                        Technical Designer
+                    </p>
+
+                </div>
+
+                <aside class="hero-card">
+
+                    <p class="card-label">
+                        Currently focused on
+                    </p>
+
+                    <ul>
+                        <li>Modern C++ fundamentals</li>
+                        <li>Unreal Engine gameplay systems</li>
+                        <li>Technical design prototypes</li>
+                        <li>Blender and real-time 3D workflows</li>
+                    </ul>
+
+                </aside>
+
+            </div>
+            </section>
+            <section id="about" class="content-section">
+                <div class="section-heading">
+                    <p class="eyebrow">About</p>
+                </div>
+            
+                <div class="about-grid">
+                    <div class="about-copy surface">
+                        <h2>Designer’s mindset. Programmer’s toolkit.</h2>
+                        <p>
+                            I’m studying Experiential Media Design at The Ohio State
+                            University, where I’m developing skills across interactive
+                            design, programming, animation, and 3D production.
+                        </p>
+
+                        <p>
+                            My main interests are gameplay programming and technical
+                            design. I enjoy turning design ideas into working systems,
+                            testing how they feel, and improving them through iteration.
+                        </p>
+
+                        <p>
+                            My long-term goal is to help create memorable game worlds
+                            and eventually build a game studio of my own.
+                        </p>
+                    </div>
+
+                    <div class="detail-list">
+                        <article class="detail-card">
+                            <h3>Education</h3>
+                            <p>
+                                B.S. Experiential Media Design<br>
+                                The Ohio State University
+                            </p>
+                        </article>
+
+                        <article class="detail-card">
+                            <h3>Career Direction</h3>
+                            <p>
+                                Gameplay Programmer<br>
+                                Technical Designer
+                            </p>
+                        </article>
+
+                        <article class="detail-card">
+                            <h3>Current Goal</h3>
+                            <p>
+                                Building a library of focused, playable gameplay
+                                mechanic studies.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="content-section">
+                <div class="section-heading">
+                    <p class="eyebrow">Featured Work</p>
+                    <h2>Projects and mechanic studies</h2>
+                    <p>
+                        This portfolio is actively growing as I develop new gameplay
+                        systems and interactive prototypes.
+                    </p>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card featured-project">
+                        <div class="project-image placeholder-image">
+                            <span>Project Preview</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-type">Unreal Engine · Blueprints</p>
+                            <h3>Learn to Knit</h3>
+
+                            <p>
+                                An interactive learning experience that guides players
+                                through the process of completing a basic knitting
+                                stitch using visual instruction and input-driven steps.
+                            </p>
+
+                            <ul class="project-highlights">
+                                <li>Created an interactive lesson flow</li>
+                                <li>Implemented drag-input thresholds</li>
+                                <li>Managed instructional media and progression</li>
+                            </ul>
+
+                            <div class="project-links">
+                                <a href="#">View Case Study</a>
+                                <a href="#">View Repository</a>
+                            </div>
+                        </div>
+                    </article>
+            
+                    <article class="project-card">
+                        <div class="project-image placeholder-image">
+                            <span>Coming Soon</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-type">C++ · Unreal Engine</p>
+                            <h3>Gameplay Mechanic Study</h3>
+
+                            <p>
+                                A focused gameplay prototype built to explore player
+                                input, feedback, system architecture, and game feel.
+                            </p>
+
+                            <span class="status-tag">In development</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image placeholder-image">
+                            <span>Coming Soon</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-type">Blender · Real-Time 3D</p>
+                            <h3>3D Environment Study</h3>
+
+                            <p>
+                                A small environment study exploring modeling,
+                                composition, materials, lighting, and engine integration.
+                            </p>
+
+                            <span class="status-tag">Planned</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="skills" class="content-section">
+                <div class="section-heading">
+                    <p class="eyebrow">Toolkit</p>
+                    <h2>Skills I’m actively developing</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <h3>Programming</h3>
+                        <ul>
+                            <li>C++</li>
+                            <li>Unreal Engine Blueprints</li>
+                            <li>HTML and CSS</li>
+                            <li>Git and GitHub</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Game Development</h3>
+                        <ul>
+                            <li>Gameplay systems</li>
+                            <li>Technical design</li>
+                            <li>Rapid prototyping</li>
+                            <li>Debugging and iteration</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Art and Design</h3>
+                        <ul>
+                            <li>Blender</li>
+                            <li>3D modeling</li>
+                            <li>Visual communication</li>
+                            <li>Interaction design</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="contact-section surface">
+                <div>
+                    <p class="eyebrow">Contact</p>
+                    <h2>Let’s build something memorable.</h2>
+
+                    <p>
+                        I’m currently building my portfolio and preparing for future
+                        game-development internship opportunities.
+                    </p>
+                </div>
+
+                <a class="button primary-button" href="mailto:YOUR-EMAIL-HERE">
+                    Email Me
+                </a>
+            </section>
+        </section>    
     </main>
 
-    <script src="script.js"></script>
+    <footer class="site-footer">
+        <p>© 2026 Connor Van Brocklin. Built with HTML and CSS.</p>
+
+        <a href="#home">Back to top ↑</a>
+    </footer>
 </body>
+
 </html>
