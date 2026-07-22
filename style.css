@@ -1,8 +1,17 @@
 * {
     box-sizing: border-box;
+    /* background-color: beige;
+    background-image: linear-gradient(blue, purple); */
 }
 
 body {
+    background-color: beige;
+    background-image: radial-gradient(at 0% 32%, #D0FFCC, transparent 50%), 
+    radial-gradient(at 15% 7%, #1D6E16, transparent 50%),
+    radial-gradient(at 50% 54%, #48A140, transparent 50%),
+    radial-gradient(at 75% 18%, #86D47F, transparent 50%),
+    radial-gradient(at 100% 86%, #053a00, transparent 50%);
+    min-height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
