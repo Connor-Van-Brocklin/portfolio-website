@@ -96,10 +96,14 @@ img {
     font-weight: 800;
     letter-spacing: -0.04em;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
-.logo span {
-    color: var(--green-light);
+.logo img {
+    height: 48px;
+    width: auto;
 }
 
 .nav-links {
